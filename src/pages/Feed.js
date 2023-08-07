@@ -28,6 +28,7 @@ const Posts = styled.div`
      padding-left: 400px;
      @media (max-width: 700px) {
         padding-left: 40px;
+        width: 89%;
     }
 `
 
@@ -41,6 +42,9 @@ const Search = styled.input`
      padding-left: 10px;
      padding-right: 10px;
      border: none;
+     @media (max-width: 700px) {
+          font-size: 14px;
+      }
 `
 
 const Post = styled.div`
@@ -60,6 +64,7 @@ const Post = styled.div`
      padding-left: 5%;
      padding-bottom: calc(5% + 30px);
      padding-top: 0%;
+     
 `
 
 const Username = styled.h2`
@@ -67,6 +72,11 @@ const Username = styled.h2`
      display: block;
      text-align: left;
      display: flex;
+     margin-top: 2%;
+     @media (max-width: 700px) {
+          font-size: 22px;
+          margin-top: 4%; 
+      }
 `
 
 const PostInput = styled.textarea`
@@ -75,6 +85,9 @@ const PostInput = styled.textarea`
     border-radius: 10px;
     margin-bottom: 20px;
     font-size: 16px;
+    @media (max-width: 700px) {
+     margin-top: 10px;
+ }
     
 `
 
@@ -99,7 +112,10 @@ const ImagemPerfil = styled.img`
 const Reticencias = styled.img`
      margin-left: 50%;
      height: 5px;
-     margin-top: 40px;
+     margin-top: 30px;
+     @media (max-width: 700px) {
+          margin-left: 20%;
+      }
 `
 
 const Perfil = styled.div`
