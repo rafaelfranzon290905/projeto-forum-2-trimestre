@@ -9,6 +9,8 @@ import Home from './pages/Home';
 import Login from './pages/Login';  
 import Signup from './pages/Signup';
 import Feed from './pages/Feed';
+import Config from "./pages/Config"
+import Coment from "./pages/Coment"
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/feed" element={<Feed />} />
+          <Route path='/config' element={<Config/>}/>
+          <Route path='/coment' element={<Coment/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -10,6 +10,9 @@ export default function Home(){
       <Link to='/login'>Fazer login</Link><br/>
       <Link to='/signup'>Criar conta</Link><br/>
       <Link to='/feed'>Ir para o feed</Link> <br/>
+      <Link to='/coment'>Ir para o comentario</Link> <br/>
+      <Link to='/config'>Ir para as conffig</Link> <br/>
+
     </>
   )
 }
