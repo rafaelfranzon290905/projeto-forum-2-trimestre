@@ -74,8 +74,8 @@ const Username = styled.h2`
      display: flex;
      margin-top: 2%;
      @media (max-width: 700px) {
-          font-size: 22px;
-          margin-top: 4%; 
+          font-size: 16px;
+          margin-top: 20px; 
       }
 `
 
@@ -107,6 +107,10 @@ const ImagemPerfil = styled.img`
      margin-top: 12px;
      margin-right: 10px;
      display: flex;
+     @media (max-width: 700px) {
+          width: 35px;
+          height: 35px; 
+      }
 `
 
 const Reticencias = styled.img`
@@ -115,6 +119,7 @@ const Reticencias = styled.img`
      margin-top: 30px;
      @media (max-width: 700px) {
           margin-left: 20%;
+          height: 3px;
       }
 `
 
@@ -152,7 +157,10 @@ const Interacoes = styled.div`
 
 const ImgInteracoes = styled.img`
      width: 45px;
-     
+     @media (max-width: 700px) {
+          width: 35px;
+          margin-bottom: 40px;
+      }
      
 `
 
